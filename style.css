@@ -51,3 +51,16 @@ body{ background-color: bisque;}
   color: #ff4500;
   font-size: 1.2em;
 }
+
+/* Estilos válidos apenas para telas de celulares */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  /* Faz as colunas ocuparem a largura total na vertical */
+  .coluna {
+    width: 100%;
+  }
+}
