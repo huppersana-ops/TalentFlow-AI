@@ -5,7 +5,7 @@ img{
 }
 h1{ -webkit-text-stroke: 2px black; /* Espessura e cor do contorno */
   color: rgb(255, 251, 2);  
-  position: fixed;                /* Cor do interior da letra */
+  position: sticky;                /* Cor do interior da letra */
 }
 
 body{ background-color: bisque;}
